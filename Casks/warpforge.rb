@@ -1,12 +1,12 @@
 cask "warpforge" do
-  version "0.22.1"
+  version "0.23.0"
 
   on_macos do
-    sha256 "718de98503f9cecdffdbc14f8922b510ca711264082910eb35a7debb55011047"
+    sha256 "f44348989c462691296666c7932bc2256db9250d52233f214dec195734e0b12e"
     url "https://github.com/warpforgehq/warpforge/releases/download/v#{version}/Warpforge_#{version}_aarch64.dmg"
   end
   on_linux do
-    sha256 "35d32730ff5a52758332ce1dda186d9da06ae05f485797aad3165f0f3453106c"
+    sha256 "41a2a5cf0a58be91a8ddd97fd986abc0441ee54ae708f9a79c541b3293d34d0e"
     url "https://github.com/warpforgehq/warpforge/releases/download/v#{version}/Warpforge_#{version}_amd64.AppImage"
   end
 
